@@ -3,7 +3,8 @@ This tag utilizes Google Tag Manager’s `dataLayer` to populate a formatted Par
 ## dataLayer Format
 The [Standard Ecommerce Developer Guide](https://support.google.com/tagmanager/answer/6107169?hl=en) lists the required formatted for the `dataLayer` as it relates to this tag.
 ### Example
-```<script>
+```
+<script>
 window.dataLayer = window.dataLayer || [];
 dataLayer.push({
    'transactionId': '1234',
@@ -25,4 +26,5 @@ dataLayer.push({
        'quantity': 2
    }]
 });
-</script>```
+</script>
+```
