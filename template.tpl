@@ -183,7 +183,11 @@ if (typeof transactionId != 'undefined'){
 // Add the custom basket level tracking parameters
 if (typeof data.CustomValues != 'undefined'){
   data.CustomValues.forEach(function(element) {
-    url = url + formatParameter(element.customParameters) + ':' + encodeUriComponent(element.customValues) + '/';
+	  if (typeof element.customValues !== 'undefined'){
+		  url = url + formatParameter(element.customParameters) + ':' + encodeUriComponent(element.customValues) + '/';
+	  } else {
+		  url = url + formatParameter(element.customParameters) + ':/';
+	  }
   });
 }
 
