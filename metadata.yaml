@@ -3,7 +3,7 @@ documentation: "https://github.com/webmasterjunkie/partnerize-gtm-standard-ecomm
 versions:
   # Latest version
   - sha: 70fd102a5bd4b4a7b9539d21fd550ef829dda739
-    changeNotes: Add cookie storage for cross domain support
+    changeNotes: Add cookie support
   # Older versions
   - sha: d7cda0989d72082fc645cfb988735662032bc80d
     changeNotes: Update display name
