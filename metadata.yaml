@@ -2,9 +2,11 @@ homepage: "https://partnerize.com/en"
 documentation: "https://github.com/webmasterjunkie/partnerize-gtm-standard-ecommerce/blob/master/README.md"
 versions:
   # Latest version
+  - sha: 79cca9ea87191591cccb7f03576d90ec42be5f43
+    changeNotes: Add custom tracking domain option
+  # Older versions
   - sha: 4653677bcbf0c375513912180190cb61873dd3dc
     changeNotes: Add additional metrics for reporting
-  # Older versions
   - sha: 70fd102a5bd4b4a7b9539d21fd550ef829dda739
     changeNotes: Add cookie support
   - sha: d7cda0989d72082fc645cfb988735662032bc80d
